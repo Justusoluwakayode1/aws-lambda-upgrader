@@ -33,7 +33,7 @@ terraform.tfstate
 terraform.tfstate.backup
 
 # === Environment-Specific Config ===
-*.tfvars
+
 *.env
 .envrc
 
