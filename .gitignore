@@ -1,0 +1,51 @@
+# === Python Bytecode and Caches ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.dist-info/
+
+# === Lambda Build Artifacts ===
+lambda_upgrader.zip
+test_lambda*.zip
+response.json
+
+# === Vendored Dependencies for Lambda Layer Packaging ===
+boto3/
+boto3-*.dist-info/
+botocore/
+botocore-*.dist-info/
+s3transfer/
+s3transfer-*.dist-info/
+jmespath/
+jmespath-*.dist-info/
+dateutil/
+python_dateutil-*.dist-info/
+six.py
+six-*.dist-info/
+urllib3/
+urllib3-*.dist-info/
+bin/
+
+# === Terraform ===
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+
+# === Environment-Specific Config ===
+*.tfvars
+*.env
+.envrc
+
+# === Node.js Test Lambda Files ===
+index.js
+node_modules/
+npm-debug.log
+
+# === OS / IDE / Editor Artifacts ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
